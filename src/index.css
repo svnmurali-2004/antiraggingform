@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  background-color: aqua;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: brown;
+  text-align: center;
+  border: 3px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  
+  animation: scale(1.5) 10s;
+}
+.container{
+  margin:10px;
+  padding: 1%;
+  background-color: aqua;
+  text-align: center;
+  border:3px dotted blue;
+}
+.form1{
+  display:grid;
+  margin:10px;
+  align-content: space-around;
+  align-items: center;
+  padding: 10px;
+  
+  background-color: beige;
+  border: 2px dotted black ;
+}
+form{
+height: 100px;
+}
+.inbox{
+  width:40%;
+  height: 50%;
+  border-radius: 20px;
+  border: 2px dashed black;
+  background-color: rgba(0, 255, 183, 0.945);
+  font-size: 200%;
+  opacity: 0.6;
+  font-weight: 500;
+  color: rgba(0, 0, 0,1);
+}
+.i1{
+  border-radius: 20px;
+  border:2px solid black;
+  background-color: rgba(16, 221, 5, 0.362);
+  width: 50%;
+  height: 25%;
+}
+body{
+  background-color: rgba(0, 255, 255, 0.729);
+  border: 4px dashed black;
+}
+.block1{
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+::placeholder{
+  align-content: center;
+  text-align: center;
+}
